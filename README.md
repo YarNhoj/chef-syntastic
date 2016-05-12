@@ -3,7 +3,7 @@ Generic vim plugin for [Syntastic](https://github.com/scrooloose/syntastic). It 
 Install Syntastic via [Pathogen](https://github.com/tpope/vim-pathogen) and the then run the install.sh that is provided. 
 This will copy critic.vim into ~/.vim/bundle/syntastic/syntax_checkers/chef.
 Enable by adding the following to your .vimrc
-`let g:syntastic_chef_checkers = ['foodcritic','raycritic']`
+`let g:syntastic_chef_checkers = ['foodcritic','critic']`
 
 Sample .vimrc
 ```
